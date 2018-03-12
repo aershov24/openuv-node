@@ -1,0 +1,30 @@
+{
+  "name": "openuv",
+  "version": "0.1.0",
+  "description": "A Node.js client library for OpenUV UV Index API: www.openuv.io",
+  "keywords": [
+        "uv index",
+        "uvindex",
+        "uv forecast",
+        "sun safety",
+        "uv",
+        "forecast",
+        "openuv",
+        "weather"
+    ],
+  "main": "openuv.js",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/aershov24/openuv-node.git"
+  }
+  "scripts": {
+    "build": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Ershov <aershov@openuv.io> (http://openuv.io)",
+  "license": "MIT",
+  "dependencies": {
+    "query-string": "^5.1.0",
+    "request": "^2.83.0"
+  }
+}
