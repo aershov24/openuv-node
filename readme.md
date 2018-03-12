@@ -36,7 +36,7 @@ To get protection time for a particular location call:
 ```javascript
 var openuv = require('openuv')('v1','YOUR_API_KEY');
 
-openuv.protection({lat: 12.23, lng: 45.32}, (err, data) => {
+openuv.protection({lat: 12.23, lng: 45.32, from: 3.5, to: 3.5}, (err, data) => {
   console.log(JSON.stringify(data, null, 2));
 });
 ```
