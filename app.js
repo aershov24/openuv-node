@@ -23,7 +23,7 @@ module.exports = function (version, apikey) {
       })
     };
 
-    openuv.forecast = function (params) {
+    openuv.forecast = function (params, cb) {
       options.url = endpoint+'/forecast?'+queryString.stringify(params);
       request(options, (error, response, body) => {
         if (!error && response.statusCode == 200) {
@@ -35,7 +35,7 @@ module.exports = function (version, apikey) {
       })
     };
 
-    openuv.protection = function (params) {
+    openuv.protection = function (params, cb) {
       options.url = endpoint+'/protection?'+queryString.stringify(params);
       request(options, (error, response, body) => {
         if (!error && response.statusCode == 200) {
