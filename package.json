@@ -1,6 +1,6 @@
 {
   "name": "openuv",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Node.js client library for OpenUV UV Index API: www.openuv.io",
   "keywords": [
         "uv index",
